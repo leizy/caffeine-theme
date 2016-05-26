@@ -36,7 +36,7 @@ src = {
     js: {
         fonts: [
             "assets/vendor/fontfaceobserver/fontfaceobserver.js",
-            "assets/js/src/fonts.js"            
+            "assets/js/src/fonts.js"
         ],
         main: [
             "assets/js/src/__init.js",
@@ -50,6 +50,13 @@ src = {
             "assets/vendor/fitvids/jquery.fitvids.js",
             "assets/vendor/reading-time/build/readingTime.min.js",
             "assets/vendor/prism/prism.js",
+            "assets/vendor/prism/plugins/line-numbers/prism-line-numbers.js",
+            "assets/vendor/prism/components/prism-bash.js",
+            "assets/vendor/prism/components/prism-python.js",
+            "assets/vendor/prism/components/prism-sql.js",
+            "assets/vendor/prism/components/prism-java.js",
+            "assets/vendor/prism/components/prism-javascript.js",
+            "assets/vendor/prism/components/prism-scala.js",
             "assets/vendor/toastr/toastr.min.js",
             "assets/vendor/store-js/store.min.js"
         ]
@@ -57,7 +64,8 @@ src = {
     css: {
         main: "assets/css/" + dist.name + ".css",
         vendor: [
-            "assets/vendor/prism/themes/prism-okaidia.css"
+            "assets/vendor/prism/themes/prism.css",
+            "assets/vendor/prism/plugins/line-numbers/prism-line-numbers.css"
         ]
     },
     fonts: {
